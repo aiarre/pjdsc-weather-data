@@ -1,0 +1,616 @@
+Date,Time,City,Location,Flood Type/Depth,Passability
+2025/09/12,15:36,Quezon City,Elliptical East Ave.,Gutter Deep,Passable to all vehicles
+2025/09/12,15:14,Quezon City,EDSA After Quezon Ave. Flyover NB,Gutter Deep,Passable to all vehicles
+2025/09/12,15:14,Quezon City,Elliptical East Ave.,Gutter Deep,Passable to all vehicles
+2025/09/12,15:14,Quezon City,EDSA Quezon Ave. service road NB,Gutter Deep,Passable to all vehicles
+2025/09/12,14:54,Quezon City,EDSA Aurora Tunnel NB,Subsided,
+2025/09/12,14:55,Quezon City,EDSA before Kamuning flyover SB,Subsided,
+2025/09/12,14:50,Quezon City,EDSA After Quezon Ave. Flyover NB,Gutter Deep,Passable to all vehicles
+2025/09/12,14:50,Quezon City,EDSA Aurora Tunnel NB,Gutter Deep,Passable to all vehicles
+2025/09/12,14:50,Quezon City,Elliptical East Ave.,Gutter Deep,Passable to all vehicles
+2025/09/11,21:13,Quezon City,N.S Amoranto,Knee Deep,Not passable to light vehicles
+2025/09/11,19:30,Quezon City,Araneta Avenue,Subsided,
+2025/09/11,19:47,Quezon City,N.S Amoranto,Knee Deep,Not passable to light vehicles
+2025/09/11,19:47,Quezon City,Araneta Avenue,Gutter Deep,Passable to all vehicles
+2025/09/11,17:48,Caloocan City,C3 NLEX Connector Int.,Subsided,
+2025/09/11,17:25,Valenzuela City,Mc Arthur Highway Calle Uno NB,Subsided,
+2025/09/11,17:58,Quezon City,N.S Amoranto,Knee Deep,Not passable to light vehicles
+2025/09/11,17:58,Quezon City,Araneta Avenue,Gutter Deep,Passable to all vehicles
+2025/09/11,16:51,Quezon City,EDSA Balintawak NB,Subsided,
+2025/09/11,16:47,Quezon City,EDSA Oliveros NB,Subsided,
+2025/09/11,17:18,Quezon City,Quezon Ave. Araneta tunnel EB/WB,Subsided,
+2025/09/11,17:19,Quezon City,EDSA North Ave. NB,Subsided,
+2025/09/11,17:24,Quezon City,EDSA After Quezon Ave. Flyover NB,Subsided,
+2025/09/11,17:06,Caloocan City,EDSA Bagong Barrio SB,Subsided,
+2025/09/11,17:58,Caloocan City,EDSA Bagong Barrio NB,Gutter Deep,Passable to all vehicles
+2025/09/11,17:58,Caloocan City,C3 NLEX Connector Int.,Gutter Deep,Passable to all vehicles
+2025/09/11,17:58,Valenzuela City,Mc Arthur Highway Calle Uno NB,Gutter Deep,Passable to all vehicles
+2025/09/11,17:20,Quezon City,EDSA Balintawak NB,Gutter Deep,Passable to all vehicles
+2025/09/11,17:20,Quezon City,EDSA Oliveros NB,Gutter Deep,Passable to all vehicles
+2025/09/11,17:20,Quezon City,Quezon Ave. Araneta tunnel EB/WB,Gutter Deep,Passable to all vehicles
+2025/09/11,17:20,Quezon City,EDSA North Ave. NB,Gutter Deep,Passable to all vehicles
+2025/09/11,17:20,Quezon City,EDSA After Quezon Ave. Flyover NB,Gutter Deep,Passable to all vehicles
+2025/09/11,17:20,Caloocan City,EDSA Bagong Barrio NB/SB,Gutter Deep,Passable to all vehicles
+2025/09/11,17:20,Valenzuela City,Mc Arthur Highway Calle Uno NB,Gutter Deep,Passable to all vehicles
+2025/09/11,16:12,Quezon City,EDSA Balintawak NB,Gutter Deep,Passable to all vehicles
+2025/09/11,16:12,Quezon City,EDSA Oliveros NB,Gutter Deep,Passable to all vehicles
+2025/09/11,16:12,Quezon City,Quezon Ave. Araneta tunnel EB/WB,Gutter Deep,Passable to all vehicles
+2025/09/11,16:12,Quezon City,EDSA Bagong Barrio NB/SB,Gutter Deep,Passable to all vehicles
+2025/09/11,16:12,Quezon City,EDSA North Ave. NB,Gutter Deep,Passable to all vehicles
+2025/09/06,16:55,Parañaque City,Dr. A. Santos Ave. in front of SM Sucat,Subsided,
+2025/09/06,16:55,Parañaque City,Dr. A. Santos Ave. near Paranaque National Highschool,Gutter Deep,Passable to all vehicles
+2025/09/06,16:55,Parañaque City,Dr. A. Santos Ave. Corner Canaynay Ave. Brgy. San Dionisio,Gutter Deep,Passable to all vehicles
+2025/09/06,15:18,Parañaque City,Dr. A. Santos Ave. in front of SM Sucat,Knee Deep,Not passable to light vehicles
+2025/09/06,15:18,Parañaque City,Dr. A. Santos Ave. near Paranaque National Highschool,Gutter Deep,Passable to all vehicles
+2025/09/06,15:18,Parañaque City,Dr. A. Santos Ave. Corner Canaynay Ave. Brgy. San Dionisio,Gutter Deep,Passable to all vehicles
+2025/09/06,15:18,Manila City,Roxas Blvd Pedro Gil,Subsided,
+2025/09/06,15:18,Pasay City,Roxas Edsa Intersection NB,Subsided,
+2025/09/06,14:55,Mandaluyong City,EDSA SHAW tunnel NB,Subsided,
+2025/09/06,14:55,Parañaque City,Dr. A. Santos ave. in front of SM Sucat,Gutter Deep,Passable to all vehicles
+2025/09/06,14:55,Parañaque City,Dr. A. Santos Ave. near Paranaque National Highschool,Gutter Deep,Passable to all vehicles
+2025/09/06,14:55,Parañaque City,Dr. A. Santos Ave. Corner Canaynay Ave. Brgy. San Dionisio,Gutter Deep,Passable to all vehicles
+2025/09/06,14:55,Manila City,Roxas Blvd Pedro Gil,Gutter Deep,Passable to all vehicles
+2025/09/06,14:55,Pasay City,Roxas Edsa Intersection NB,Gutter Deep,Passable to all vehicles
+2025/09/06,14:07,Mandaluyong City,EDSA SHAW tunnel NB,Gutter Deep,Passable to all vehicles
+2025/09/06,14:07,Parañaque City,Dr. A. Santos ave. in front of SM Sucat,Gutter Deep,Passable to all vehicles
+2025/09/06,14:07,Parañaque City,Dr. A. Santos Ave. near Paranaque National Highschool,Gutter Deep,Passable to all vehicles
+2025/09/06,14:07,Parañaque City,Dr. A. Santos Ave. Corner Canaynay Ave. Brgy. San Dionisio,Gutter Deep,Passable to all vehicles
+2025/09/06,14:07,Manila City,Roxas Blvd Pedro Gil,Gutter Deep,Passable to all vehicles
+2025/09/06,14:07,Pasay City,Roxas Edsa Intersection NB,Gutter Deep,Passable to all vehicles
+2025/09/06,12:15,Mandaluyong City,EDSA SHAW tunnel NB,Gutter Deep,Passable to all vehicles
+2025/09/06,12:15,Parañaque City,Dr. A. Santos Ave. at 4th Estate Brgy. San Antonio,Half Tire Deep,Not passable to light vehicles
+2025/09/05,07:20,Manila City,Quirino Station Facing Vito Cruz,Subsided,
+2025/09/05,07:20,Manila City,Quirino Station Northbound,Subsided,
+2025/09/05,07:20,Manila City,Pedro Gil,Subsided,
+2025/09/05,07:20,Manila City,Quirino Station to Taft,Subsided,
+2025/09/05,07:20,Mandaluyong City,EDSA Shaw Tunnel NB,Half Gutter Deep,Passable to all vehicles
+2025/09/05,05:29,Manila City,Quirino Station Facing Vito Cruz,Gutter Deep,Passable to all vehicles
+2025/09/05,05:29,Manila City,Quirino Station Northbound,Gutter Deep,Passable to all vehicles
+2025/09/05,05:29,Manila City,Pedro Gil,Gutter Deep,Passable to all vehicles
+2025/09/05,05:29,Manila City,Quirino Station to Taft,Gutter Deep,Passable to all vehicles
+2025/09/05,05:29,Mandaluyong City,EDSA Shaw Tunnel NB,Gutter Deep,Passable to all vehicles
+2025/09/01,21:40,Pasay City,Andrew Tramo Int.,Gutter Deep,Passable to all vehicles
+2025/09/01,21:40,Manila City,Roxas Blvd. P. Ocampo,Subsided,
+2025/08/30,20:16,Quezon City,Commonwealth Winston,Knee Deep,Not passable to light vehicles
+2025/08/30,20:16,Quezon City,Commonwealth Bitoon West Bound,Gutter Deep,Passable to all vehicles
+2025/08/30,20:16,Quezon City,Araneta Maria Clara NB and SB,Knee Deep,Not passable to light vehicles
+2025/08/30,20:16,Quezon City,G. Araneta Ave. E. Rodriguez Intersection,Waist Deep,Not passable to all vehicles
+2025/08/30,19:15,Quezon City,EDSA Dario NB,Subsided,
+2025/08/30,19:15,Quezon City,EDSA Munoz NB,Subsided,
+2025/08/30,19:15,Quezon City,Commonwealth Winston,Knee Deep,Not passable to light vehicles
+2025/08/30,19:15,Quezon City,Commonwealth Bitoon West Bound,Knee Deep,Not passable to light vehicles
+2025/08/30,19:15,Quezon City,Araneta Maria Clara NB and SB,Knee Deep,Not passable to light vehicles
+2025/08/30,19:15,Quezon City,G. Araneta Ave. E. Rodriguez Intersection,Waist Deep,Not passable to all vehicles
+2025/08/30,18:48,Quezon City,EDSA Dario NB,Gutter Deep,Passable to all vehicles
+2025/08/30,18:48,Quezon City,EDSA Centris service road NB,Subsided,
+2025/08/30,18:48,Quezon City,Elliptical road Kalayaan Avenue,Subsided,
+2025/08/30,18:48,Quezon City,C5 Katipunan Ateneo NB,Subsided,
+2025/08/30,18:48,Quezon City,EDSA Munoz NB,Gutter Deep,Passable to all vehicles
+2025/08/30,18:48,Quezon City,Commonwealth Ever EB,Subsided,
+2025/08/30,18:48,Quezon City,C5 Katipunan Aurora service road SB,Subsided,
+2025/08/30,18:48,Quezon City,EDSA West Avenue SB,Subsided,
+2025/08/30,18:48,Quezon City,Commonwealth Winston,Knee Deep,Not passable to light vehicles
+2025/08/30,18:48,Quezon City,Edsa Kamuning intersection NB and SB,Subsided,
+2025/08/30,18:48,Quezon City,Commonwealth Bitoon West Bound,Knee Deep,Not passable to light vehicles
+2025/08/30,18:48,Quezon City,EDSA Mother Ignacia SB,Subsided,
+2025/08/30,18:48,Quezon City,Quezon Avenue Lung Center EB and WB,Subsided,
+2025/08/30,18:48,Quezon City,C5 Katipunan Garcia SB and NB,Subsided,
+2025/08/30,18:48,Quezon City,Commonwealth Dona Carmen WB,Subsided,
+2025/08/30,18:48,Quezon City,Araneta Maria Clara NB and SB,Knee Deep,Not passable to light vehicles
+2025/08/30,18:48,Quezon City,Quezon Avenue EDSA Tunnel WB and EB,Subsided,
+2025/08/30,18:48,Quezon City,G. Araneta Ave. E. Rodriguez Intersection,Waist Deep,Not passable to all vehicles
+2025/08/30,17:55,Quezon City,EDSA Dario NB,Gutter Deep,Passable to all vehicles
+2025/08/30,17:55,Quezon City,EDSA Centris service road NB,Gutter Deep,Passable to all vehicles
+2025/08/30,17:55,Quezon City,Elliptical road Kalayaan Avenue,Knee Deep,Not passable to light vehicles
+2025/08/30,17:55,Quezon City,C5 Katipunan Ateneo NB,Knee Deep,Not passable to light vehicles
+2025/08/30,17:55,Quezon City,EDSA Munoz NB,Gutter Deep,Passable to all vehicles
+2025/08/30,17:55,Quezon City,Commonwealth Ever EB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,17:55,Quezon City,C5 Katipunan Aurora service road SB,Knee Deep,Not passable to light vehicles
+2025/08/30,17:55,Quezon City,EDSA West Avenue SB,Gutter Deep,Passable to all vehicles
+2025/08/30,17:55,Quezon City,Commonwealth Winston,Knee Deep,Not passable to light vehicles
+2025/08/30,17:55,Quezon City,Edsa Kamuning intersection NB and SB,Gutter Deep,Passable to all vehicles
+2025/08/30,17:55,Quezon City,Commonwealth Bitoon West Bound,Knee Deep,Not passable to light vehicles
+2025/08/30,17:55,Quezon City,EDSA Mother Ignacia SB,Knee Deep,Not passable to light vehicles
+2025/08/30,17:55,Quezon City,Quezon Avenue Lung Center EB and WB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,17:55,Quezon City,C5 Katipunan Garcia SB and NB,Knee Deep,Not passable to light vehicles
+2025/08/30,17:55,Quezon City,Commonwealth Dona Carmen WB,Gutter Deep,Passable to all vehicles
+2025/08/30,17:55,Quezon City,Araneta Maria Clara NB and SB,Knee Deep,Not passable to light vehicles
+2025/08/30,17:55,Quezon City,Commonwealth UP Gym EB,Waist Deep,Not passable to all vehicles
+2025/08/30,17:55,Quezon City,Quezon Avenue EDSA Tunnel WB and EB,Waist Deep,Not passable to all vehicles
+2025/08/30,16:55,Quezon City,EDSA Dario NB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:55,Quezon City,EDSA Centris service road NB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:55,Quezon City,Elliptical road Kalayaan Avenue,Knee Deep,Not passable to light vehicles
+2025/08/30,16:55,Quezon City,C5 Katipunan Ateneo NB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:55,Quezon City,EDSA Balintawak NB,Subsided,
+2025/08/30,16:55,Quezon City,EDSA Munoz NB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:55,Quezon City,Commonwealth Ever EB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,16:55,Quezon City,C5 Katipunan Aurora service road SB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:55,Quezon City,EDSA West Avenue SB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:55,Quezon City,Commonwealth Winston,Knee Deep,Not passable to light vehicles
+2025/08/30,16:55,Quezon City,Commonwealth Technohub WB,Subsided,
+2025/08/30,16:55,Quezon City,Edsa Kamuning intersection NB and SB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:55,Quezon City,Commonwealth Bitoon West Bound,Knee Deep,Not passable to light vehicles
+2025/08/30,16:55,Quezon City,EDSA Mother Ignacia SB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:55,Quezon City,Quezon Avenue Lung Center EB and WB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,16:55,Quezon City,C5 Katipunan Garcia SB and NB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:55,Quezon City,Commonwealth Dona Carmen WB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:55,Quezon City,Araneta Maria Clara NB and SB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:55,Quezon City,Commonwealth UP Gym EB,Waist Deep,Not passable to all vehicles
+2025/08/30,16:55,Quezon City,Quezon Avenue EDSA Tunnel WB and EB,Waist Deep,Not passable to all vehicles
+2025/08/30,16:38,Quezon City,Luzon Ave. C5 Ext.,Subsided,
+2025/08/30,16:38,Quezon City,EDSA Dario NB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:38,Quezon City,EDSA Centris service road NB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:38,Quezon City,EDSA North Avenue NB,Subsided,
+2025/08/30,16:38,Quezon City,Elliptical road Kalayaan Avenue,Knee Deep,Not passable to light vehicles
+2025/08/30,16:38,Quezon City,C5 Katipunan Ateneo NB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:38,Quezon City,EDSA Balintawak NB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:38,Quezon City,EDSA Munoz NB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:38,Quezon City,Commonwealth Ever EB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,16:38,Quezon City,C5 Katipunan Aurora service road SB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:38,Quezon City,EDSA West Avenue SB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:38,Quezon City,Commonwealth Winston,Knee Deep,Not passable to light vehicles
+2025/08/30,16:38,Quezon City,Commonwealth Technohub WB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:38,Quezon City,Edsa Kamuning intersection NB and SB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:38,Quezon City,Commonwealth Bitoon West Bound,Knee Deep,Not passable to light vehicles
+2025/08/30,16:38,Quezon City,EDSA Mother Ignacia SB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:38,Quezon City,Quezon Avenue Lung Center EB and WB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,16:38,Quezon City,C5 Katipunan Garcia SB and NB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:38,Quezon City,Commonwealth Dona Carmen WB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:38,Quezon City,Araneta Maria Clara NB and SB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:38,Quezon City,Commonwealth UP Gym EB,Waist Deep,Not passable to all vehicles
+2025/08/30,16:38,Quezon City,Quezon Avenue EDSA Tunnel WB and EB,Waist Deep,Not passable to all vehicles
+2025/08/30,16:01,Quezon City,EDSA Dario NB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,EDSA Centris service road NB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,EDSA North Avenue NB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,Elliptical road Kalayaan Avenue,Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,C5 Katipunan Ateneo NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,EDSA Balintawak NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,EDSA Munoz NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,Commonwealth Ever EB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,C5 Katipunan Ateneo NB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:01,Quezon City,C5 Katipunan Aurora service road SB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:01,Quezon City,Edsa West Avenue SB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,Commonwealth Winston,Knee Deep,Not passable to light vehicles
+2025/08/30,16:01,Quezon City,Commonwealth Technohub WB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:01,Quezon City,Edsa Kamuning intersection NB and SB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,Commonwealth Batasan,Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,Commonwealth Bitoon West Bound,Knee Deep,Not passable to light vehicles
+2025/08/30,16:01,Quezon City,EDSA Mother Ignacia SB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:01,Quezon City,Quezon Avenue Lung Center EB and WB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,C5 Katipunan Garcia SB and NB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:01,Quezon City,Commonwealth Dona Carmen WB,Gutter Deep,Passable to all vehicles
+2025/08/30,16:01,Quezon City,Araneta Maria Clara NB and SB,Knee Deep,Not passable to light vehicles
+2025/08/30,16:01,Quezon City,Commonwealth UP Gym EB,Waist Deep,Not passable to all vehicles
+2025/08/30,15:20,Quezon City,EDSA Dario NB,Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,EDSA Centris service road NB,Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,EDSA North Avenue NB,Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,Elliptical road Kalayaan Avenue,Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,C5 Katipunan Ateneo NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,EDSA Balintawak NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,EDSA Munoz NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,Commonwealth Ever EB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,C5 Katipunan Ateneo NB,Knee Deep,Not passable to light vehicles
+2025/08/30,15:20,Quezon City,C5 Katipunan Aurora service road SB,Knee Deep,Not passable to light vehicles
+2025/08/30,15:20,Quezon City,Edsa West Avenue SB,Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,Commonwealth Winston,Knee Deep,Not passable to light vehicles
+2025/08/30,15:20,Quezon City,Commonwealth Technohub WB,Knee Deep,Not passable to light vehicles
+2025/08/30,15:20,Quezon City,Edsa Kamuning intersection NB and SB,Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,Commonwealth Batasan,Gutter Deep,Passable to all vehicles
+2025/08/30,15:20,Quezon City,Commonwealth Bitoon West Bound,Knee Deep,Not passable to light vehicles
+2025/08/30,15:03,Quezon City,EDSA Dario NB,Gutter Deep,Passable to all vehicles
+2025/08/30,15:03,Quezon City,EDSA Centris service road NB,Gutter Deep,Passable to all vehicles
+2025/08/30,15:03,Quezon City,EDSA North Avenue NB,Gutter Deep,Passable to all vehicles
+2025/08/30,15:03,Quezon City,Elliptical road Kalayaan Avenue,Gutter Deep,Passable to all vehicles
+2025/08/30,15:03,Quezon City,C5 Katipunan Ateneo NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,15:03,Quezon City,EDSA Balintawak NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,15:03,Quezon City,EDSA Munoz NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,15:03,Quezon City,Commonwealth Ever EB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,15:03,Quezon City,C5 Katipunan Aurora service road SB,Knee Deep,Not passable to light vehicles
+2025/08/30,14:49,Quezon City,EDSA Dario NB,Gutter Deep,Passable to all vehicles
+2025/08/30,14:49,Quezon City,EDSA Centris service road NB,Gutter Deep,Passable to all vehicles
+2025/08/30,14:49,Quezon City,EDSA North Avenue NB,Gutter Deep,Passable to all vehicles
+2025/08/30,14:49,Quezon City,Elliptical road Kalayaan Avenue,Gutter Deep,Passable to all vehicles
+2025/08/30,14:49,Quezon City,C5 Katipunan Ateneo NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,14:49,Quezon City,EDSA Balintawak NB,Above Gutter Deep,Passable to all vehicles
+2025/08/30,14:49,Quezon City,EDSA Muñoz NB,Above Gutter Deep,Passable to all vehicles
+2025/08/28,20:44,Valenzuela City,McArthur Highway Dalandanan near BDO Wilcon,Knee Deep,Not passable to light vehicles
+2025/08/28,20:44,Malabon City,Gov. Pascual ave.  Brgy. Catmon,Subsided,
+2025/08/28,17:15,Quezon City,C3 A. Bonifacio Int.,Above Gutter Deep,Passable to all vehicles
+2025/08/28,17:15,Caloocan City,Samson Rd. cor. Lapu lapu St.,Gutter Deep,Passable to all vehicles
+2025/08/28,17:15,Caloocan City,C3 NLEX Connector,Gutter Deep,Passable to all vehicles
+2025/08/28,17:15,Caloocan City,Samson Rd. UE,Gutter Deep,Passable to all vehicles
+2025/08/28,17:15,Caloocan City,McArthur Highway Calle Uno NB,Gutter Deep,Passable to all vehicles
+2025/08/28,17:15,Valenzuela City,McArthur Highway Dalandanan near BDO Wilcon,Gutter Deep,Passable to all vehicles
+2025/08/28,16:44,Quezon City,C3 A. Bonifacio Int.,Above Gutter Deep,Passable to all vehicles
+2025/08/28,16:44,Caloocan City,Samson Rd. cor. Lapu lapu St.,Gutter Deep,Passable to all vehicles
+2025/08/28,16:44,Caloocan City,C3 NLEX Connector,Gutter Deep,Passable to all vehicles
+2025/08/28,16:44,Caloocan City,Samson Rd. UE,Gutter Deep,Passable to all vehicles
+2025/08/28,16:44,Caloocan City,McArthur Highway Calle Uno NB,Gutter Deep,Passable to all vehicles
+2025/08/27,19:35,Quezon City,EDSA Aurora Tunnel,Subsided,
+2025/08/27,19:35,Quezon City,EDSA Santolan Service Road NB,Subsided,
+2025/08/27,19:35,Quezon City,EDSA Central terminal NB (after Quezon ave. flyover),Subsided,
+2025/08/27,19:35,Mandaluyong City,EDSA Shaw Tunnel NB,Gutter Deep,Passable to all vehicles
+2025/08/27,19:35,Mandaluyong City,EDSA Ortigas SB,Subsided,
+2025/08/27,19:18,Quezon City,EDSA Aurora Tunnel,Gutter Deep,Passable to all vehicles
+2025/08/27,19:18,Quezon City,EDSA Santolan Service Road NB,Gutter Deep,Passable to all vehicles
+2025/08/27,19:18,Quezon City,EDSA Central terminal NB (after Quezon ave. flyover),Gutter Deep,Passable to all vehicles
+2025/08/27,19:18,Quezon City,EDSA Santolan Service Road NB,Gutter Deep,Passable to all vehicles
+2025/08/27,19:18,Mandaluyong City,EDSA Shaw Tunnel NB,Gutter Deep,Passable to all vehicles
+2025/08/27,19:18,Mandaluyong City,EDSA Ortigas SB,Gutter Deep,Passable to all vehicles
+2025/08/24,16:43,Mandaluyong City,EDSA Shaw tunnel NB,Above Gutter Deep,Passable to all vehicles
+2025/08/24,16:43,Manila City,Quirino Station (Walk Way),Gutter Deep,Passable to all vehicles
+2025/08/24,16:43,Manila City,Roxas Pedro Gil service road NB,Gutter Deep,Passable to all vehicles
+2025/08/24,16:43,Manila City,Quirino Station (Facing V. Cruz),Subsided,
+2025/08/24,16:43,Manila City,España Blvd. Dela Fuente intersection,Subsided,
+2025/08/24,16:43,Manila City,Taft Ave NBI,Subsided,
+2025/08/24,16:00,Mandaluyong City,EDSA Shaw tunnel NB,Above Gutter Deep,Passable to all vehicles
+2025/08/24,16:00,Manila City,Taft Ave NBI,Gutter Deep,Passable to all vehicles
+2025/08/24,16:00,Manila City,Quirino Station (Walk Way),Gutter Deep,Passable to all vehicles
+2025/08/24,16:00,Manila City,Quirino Station (Facing V. Cruz),Gutter Deep,Passable to all vehicles
+2025/08/24,16:00,Manila City,España Blvd. Dela Fuente intersection,Gutter Deep,Passable to all vehicles
+2025/08/24,14:50,Mandaluyong City,EDSA Ortigas intersection SB,Gutter Deep,Passable to all vehicles
+2025/08/24,14:50,Mandaluyong City,EDSA Ortigas after flyover,Gutter Deep,Passable to all vehicles
+2025/08/24,14:50,Quezon City,EDSA Aurora tunnel NB,Gutter Deep,Passable to all vehicles
+2025/08/24,14:50,Quezon City,EDSA after Kamuning intersection,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Pasay City,Andrews Ave – Tramo WB,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Roxas Boulevard – Quirino Ave. intersection,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Roxas Boulevard – U.N. Service Road,Above Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Gate of Manila City Hall (SM Side),Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Leveriza corner Quirino Avenue,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Taft Avenue – Quirino Avenue intersection,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,In front of Ospital ng Maynila,Half Tire Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,Taft Avenue – Nakpil St.,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,In front of PCU,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Pedro Gil – Taft Ave. corner,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Pedro Gil – in front of PGH,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,PNU Taft,Knee Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,Padre Faura to Intersection,Knee Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,PNU to Ayala,Knee Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,Taft Ave. – in front of Adamson (to Kalaw),Knee Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,Manila City Hall to San Marcelino,Tire Deep,Not passable to all vehicles
+2025/08/22,15:00,Manila City,Taft Ave. – Padre Faura,Half Tire Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,Quirino Avenue southbound,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Pedro Gil (Walkway),Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Taft Avenue (NBI),Knee Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,Taft NBI parking (in front of Adamson to Kalaw),Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Quirino Station (Facing V. Cruz),Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Quirino Station (Walkway),Half Tire Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,Padre Faura to Intersection,Half Tire Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,Kalaw facing Taft,Half Tire Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,In front of Manila City Hall,Half Tire Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,In front of Kartilya ng Katipunan,Half Tire Deep,Not passable to light vehicles
+2025/08/22,15:00,Manila City,Taft to Underpass,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Villegas to City Hall,Gutter Deep,Passable to all vehicles
+2025/08/22,15:00,Manila City,Taft to Shrine,Half Tire Deep,Not passable to light vehicles
+2025/08/22,14:51,Pasay City,Roxas–Kalaw northbound/southbound,Subsided,
+2025/08/22,14:51,Pasay City,Roxas–Kalaw Service Road,Subsided,
+2025/08/16,13:26,Pasay City,Roxas EDSA Service Road NB,Gutter Deep,Passable to all vehicles
+2025/07/25,05:46,Malabon City,Rizal Ave. extension near Malabon City Hall,Gutter Deep,Passable to all vehicles
+2025/07/25,05:46,Malabon City,Gov. Pascual Ave. MH Del Pilar EB/WB,Gutter Deep,Passable to all vehicles
+2025/07/25,03:00,Valenzuela City,Mac Arthur Highway, Valenzuela City,Subsided,
+2025/07/24,05:17,Manila City,Roxas blvd. P. Gil Svc. Rd.,Gutter Deep,Passable to all vehicles
+2025/07/24,05:17,Manila City,Taft Ave. from Nakpil to Padre Faura North bound,Gutter Deep,Passable to all vehicles
+2025/07/24,05:17,Manila City,Taft/UN - NB in front of NBI,Gutter Deep,Passable to all vehicles
+2025/07/24,05:17,Malabon City,Don Basilio Bautista, Brgy. Hulong Duhat,Half Gutter Deep,Passable to all vehicles
+2025/07/24,05:17,Malabon City,Rizal Ave. Extension near Malabon City Hall,Half Knee Deep,Passable to all vehicles
+2025/07/24,05:17,Parañaque City,Dr. A. Santos corner Victor Medina,Gutter Deep,Passable to all vehicles
+2025/07/24,05:17,Parañaque City,Dr. A. Santos Ave. -Canaynay Ave, Lianas,Knee-Waist Deep,Not passable to all vehicles
+2025/07/24,05:17,Parañaque City,Dr. A. Santos Ave. infront of SM Sucat,Knee-Waist Deep,Not passable to all vehicles
+2025/07/24,05:17,Valenzuela City,MacArthur Highway BDO Wilcon,Gutter Deep,Passable to all vehicles
+2025/07/23,21:46,Manila City,Roxas Pedro Gil. Service Road,Gutter Deep,Passable to all vehicles
+2025/07/23,21:46,Manila City,Along Taft ave. From nakpil to padre Faura North bound,Gutter Deep,Passable to all vehicles
+2025/07/23,21:46,Malabon City,Rizal ave extension near Malabon City Hall,Knee Deep,Not passable to light vehicles
+2025/07/23,21:46,Malabon City,Don Basilio Bautista Brgy. Hulong Duhat,Half Tire Deep,Not passable to light vehicles
+2025/07/23,21:46,Parañaque City,Dr. A. Santos cor Victor Medina,Half Tire Deep,Not passable to light vehicles
+2025/07/23,21:46,Las Piñas City,Zapote Junction Barangay Zapote,Subsided,
+2025/07/23,21:46,Valenzuela City,McArthur Highway BDO Wilcon,Gutter Deep,Passable to all vehicles
+2025/07/23,20:06,Manila City,Taft UN Ave. Intersection,Gutter Deep,Passable to all vehicles
+2025/07/23,20:06,Manila City,Roxas Pedro Gil. Service Road,Gutter Deep,Passable to all vehicles
+2025/07/23,20:06,Manila City,Taft Ave. PGH,Gutter Deep,Passable to all vehicles
+2025/07/23,20:06,Malabon City,Rizal ave extension near Malabon City Hall,Knee Deep,Not passable to light vehicles
+2025/07/23,20:06,Malabon City,Don Basilio Bautista Brgy. Hulong Duhat,Half Tire Deep,Not passable to light vehicles
+2025/07/23,20:06,Parañaque City,Dr. A. Santos cor Victor Medina,Half Tire Deep,Not passable to light vehicles
+2025/07/23,20:06,Las Piñas City,Zapote Junction, Barangay Zapote,Knee Deep,Not passable to light vehicles
+2025/07/23,20:06,Valenzuela City,McArthur Highway, BDO, Wilcon,Gutter Deep,Passable to all vehicles
+2025/07/23,20:06,Mandaluyong City,EDSA Shaw Tunnel,Gutter Deep,Passable to all vehicles
+2025/07/23,19:07,Manila City,Taft UN Ave. Intersection,Gutter Deep,Passable to all vehicles
+2025/07/23,19:07,Manila City,Roxas Pedro Gil. Service Road,Gutter Deep,Passable to all vehicles
+2025/07/23,19:07,Manila City,Taft UN Ave. towards PGH ERMITA NB,Gutter Deep,Passable to all vehicles
+2025/07/23,19:07,Malabon City,Rizal Ave. Extension corner Gen. Luna,Knee Deep,Not passable to light vehicles
+2025/07/23,19:07,Malabon City,Rizal Ave. extension near Malabon City Hall,Knee Deep,Not passable to light vehicles
+2025/07/23,19:07,Malabon City,M. H. Del Pilar Maysilo,Subsided,
+2025/07/23,19:07,Malabon City,Don Basilio Bautista Brgy. Hulong Duhat,Half Knee Deep,Not passable to light vehicles
+2025/07/23,19:07,Parañaque City,Dr. A. Santos cor Victor Medina,Gutter Deep,Passable to all vehicles
+2025/07/23,19:07,Las Piñas City,Zapote Junction Barangay Zapote,Half Knee Deep,Passable to all vehicles
+2025/07/23,19:07,Valenzuela City,McArthur Highway BDO Wilcon,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Recto Benavidez,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,España Blvd Antipolo,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,España Lacson WB,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,España Lacson EB,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Palanca Quinta Market,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Rizal Ave. Mayhaligue,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Rizal Ave. Bambang,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Rizal Ave. Fugoso,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Rizal Ave Pampanga St.,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Rizal Ave Aurora,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Taft Avenue cor. UN Ave.,Knee Deep,Not passable to light vehicles
+2025/07/23,05:45,Manila City,Taft Avenue corner Padre Faura,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Taft Avenue from Apacible to Escoda,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Taft PGH NB/SB,Knee Deep,Not passable to light vehicles
+2025/07/23,05:45,Manila City,Taft Remedios NB/SB,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Roxas Blvd Pedro Gil northbound,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Roxas Blvd Kalaw NB,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Quirino Avenue Guazon,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Quirino Avenue corner Pedro Gil,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Roxas Blvd. U.N. NB,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Jose Abad Santos Tayuman,Knee Deep,Not passable to light vehicles
+2025/07/23,05:45,Manila City,Jose Abad Santos Yuseco,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Kalaw Taft,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,RMB V. Mapa Intersection,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Esplanade tunnel going to Intramuros,Knee Deep,Not passable to light vehicles
+2025/07/23,05:45,Manila City,Ayala Blvd Natividad,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Manila City,Quirino L. Guinto,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Navotas City,C3 cor R10,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Las Piñas City,Alabang Zapote Road Pamplona,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Malabon City,Rizal Ave. Extension near Malabon City Hall,Above Knee Deep,Not passable to all vehicles
+2025/07/23,05:45,Malabon City,M. H. Del Pilar Gov Pascual,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Parañaque City,MIA Domestic Rd. EB,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Parañaque City,Gatchalian Evacom,Waist Deep,Not passable to all vehicles
+2025/07/23,05:45,Parañaque City,Canaynay Road Gatchalian,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Pasay City,Diokno Blvd. Senate,Knee Deep,Not passable to light vehicles
+2025/07/23,05:45,Pasay City,Andrews Ave. Brgy 185,Gutter Deep,Passable to all vehicles
+2025/07/23,05:45,Mandaluyong City,EDSA Shaw tunnel NB/SB,Above Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Recto Mendiola Intersection,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Espana Dela Fuente,Knee Deep,Not passable to light vehicles
+2025/07/22,09:43,Manila City,Espana Blvd Antipolo,Knee Deep,Not passable to light vehicles
+2025/07/22,09:43,Manila City,Palanca Quinta Market,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Rizal ave Pampanga St.,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Rizal ave Aurora,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,España Lacson WB,Above Gutter Deep,Not passable to light vehicles
+2025/07/22,09:43,Manila City,España Lacson EB,Above Gutter Deep,Not passable to light vehicles
+2025/07/22,09:43,Manila City,España Blvd cor Antipolo St.,Knee Deep,Not passable to light vehicles
+2025/07/22,09:43,Manila City,Taft Avenue cor. UN Ave.,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Taft Avenue corner Padre Faura,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Taft Avenue from Apacible to Escoda,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Taft PGH NB/SB,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Finance Taft,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Roxas Blvd. P. Ocampo Intersection and Service Road,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Roxas Blvd Pedro Gil northbound,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Roxas Blvd Kalaw NB,Above Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Roxas Kalaw SB,Tire Deep,Not passable to all vehicles
+2025/07/22,09:43,Manila City,Quirino Avenue Guazon,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Quirino Avenue corner Pedro Gil,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Roxas Blvd. U.N. Intersection and Service Road,Above Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Jose Abad Santos Tayuman,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Jose Abad Santos Recto,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Rizal Ave Fugoso,Half Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Recto Rizal Ave,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Recto Loyola WB,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,Kalaw Taft,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,P. Ocampo Mabini Intersection,Above Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Manila City,RMB V. Mapa Intersection,Above Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Navotas City,Road 10 corner C3 Intersection,Half Knee Deep,Passable to all vehicles
+2025/07/22,09:43,Quezon City,G Araneta Maria Clara NB/SB,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Quezon City,Balintawak fronting St. Joseph Church,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Quezon City,G Araneta E.Rodriguez NB/SB,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Quezon City,G Araneta Kaliraya to Victory SB/NB,Knee Deep,Not passable to light vehicles
+2025/07/22,09:43,Quezon City,G Araneta NS Amoranto,Waist Deep,Not passable to all vehicles
+2025/07/22,09:43,Quezon City,Biak na Bato corner Atok street,Knee Deep,Not passable to light vehicles
+2025/07/22,09:43,Quezon City,EDSA North Avenue northbound,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Quezon City,Quezon Ave D. Tuazon WB/EB,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Quezon City,Quezon Ave Biak na bato EB/WB,Gutter Deep,Passable to all vehicles
+2025/07/22,09:22,Quezon City,EDSA Monte de Piedad Genesis Terminal,Subsided,
+2025/07/22,09:04,Quezon City,EDSA Aguinaldo Gate 2 NB,Subsided,
+2025/07/22,08:59,Quezon City,EDSA Liberty NB,Subsided,
+2025/07/22,09:00,Quezon City,EDSA Aurora tunnel NB,Subsided,
+2025/07/22,09:43,Las Piñas City,Marcos Alvarez near Wonderland Subd Talon Singko,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Las Piñas City,Alabang Zapote,Knee Deep,Not passable to light vehicles
+2025/07/22,09:43,Las Piñas City,Zapote Junction,Knee Deep,Not passable to light vehicles
+2025/07/22,09:43,Malabon City,M.H. Del Pilar Brgy. Maysilo Malabon,Waist Deep,Not passable to all vehicles
+2025/07/22,09:43,Malabon City,M. H. Del Pilar Gov Pascual,Knee Deep,Not passable to light vehicles
+2025/07/22,09:43,Malabon City,P. Aquino Letre,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Malabon City,Rizal Ave. Extension near Malabon City Hall,Above Knee Deep,Not passable to all vehicles
+2025/07/22,09:43,Valenzuela City,McArthur Highway, Marulas, BBB, Valenzuela City,Half Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Valenzuela City,Brgy. Marulas,Chest Deep,Not passable to all vehicles
+2025/07/22,09:43,Valenzuela City,Brgy. Dalandanan,Waist Deep,Not passable to all vehicles
+2025/07/22,09:43,Valenzuela City,Brgy. Malanday,Waist Deep,Not passable to all vehicles
+2025/07/22,09:43,Parañaque City,Dr. A. Santos, Green heights,Waist Deep,Not passable to all vehicles
+2025/07/22,09:43,Parañaque City,Dr. A. Santos SM Sucat,4 Feet Deep,Not passable to all vehicles
+2025/07/22,09:43,Parañaque City,Dr. A. Santos Ave Victor Medina,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Parañaque City,Dr. A. Santos Ave St Peter to Olivares College,6 Feet Deep,Not passable to all vehicles
+2025/07/22,09:43,Parañaque City,MIA Domestic,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Parañaque City,Gatchalian Evacom,5 Feet Deep,Not passable to all vehicles
+2025/07/22,09:43,Makati City,Osmeña Emilia,Half Knee Deep,Passable to all vehicles
+2025/07/22,08:31,Makati City,Magallanes Pasong Tamo WB,Subsided,
+2025/07/22,09:43,Caloocan City,C3 NLEX Connector,Knee Deep,Not passable to light vehicles
+2025/07/22,09:43,Marikina City,SM Marikina underpass going FVR road,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Marikina City,Major Dizon Marikina, Marikina River overflow,Not passable to all vehicles
+2025/07/22,09:43,Pasay City,EDSA Heritage SB,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Pasay City,EDSA Roxas Blvd NB/SB,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Pasay City,EDSA Taft MRT NB,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Mandaluyong City,EDSA Shaw tunnel NB/SB,Above Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Muntinlupa City,National Road in front of Muntinlupa City Hall Brgy. Putatan,Half Tire Deep,Not passable to light vehicles
+2025/07/22,09:43,Pasig City,C5 J. Vargas SB,Gutter Deep,Passable to all vehicles
+2025/07/22,09:43,Pasig City,C5 Eagle St. NB,Half Tire Deep,Not passable to light vehicles
+2025/07/22,06:40,Manila City,Recto Mendiola Intersection,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Espana Dela Fuente,Tire Deep,Not passable to all vehicles
+2025/07/22,06:40,Manila City,Espana Blvd Antipolo,Knee Deep,Not passable to light vehicles
+2025/07/22,06:40,Manila City,Palanca Quinta Market,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Rizal ave Pampanga st,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Rizal ave Aurora,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,España Lacson WB,Knee Deep,Not passable to light vehicles
+2025/07/22,06:40,Manila City,España Lacson EB,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Espana corner Dela Fuente,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,España Blvd cor Antipolo St.,Knee Deep,Not passable to light vehicles
+2025/07/22,06:40,Manila City,Taft Avenue cor. UN Ave.,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Taft Avenue corner Padre Faura,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Taft Avenue from Apacible to Escoda,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Roxas Blvd. P. Ocampo Intersection and Service Road,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Roxas Blvd Pedro Gil northbound,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Roxas Blvd Kalaw northbound,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Quirino Avenue Guazon,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Quirino Avenue corner Pedro Gil,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Roxas Blvd. U.N. Intersection and Service Road,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Jose Abad Santos Tayuman,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Manila City,Jose Abad Santos Recto,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Navotas City,Road 10 corner C3 Intersection,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Quezon City,G. Araneta Maria Clara NB/SB,Chest Deep,Not passable to all vehicles
+2025/07/22,06:40,Quezon City,Balintawak fronting St. Joseph Church,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Quezon City,G.Araneta E.Rodriguez intersection,Half Tire Deep,Not passable to light vehicles
+2025/07/22,06:40,Quezon City,G. Araneta Victory Ave. NB/SB,Waist Deep,Not passable to all vehicles
+2025/07/22,06:40,Quezon City,G. Araneta E. Rodriguez to Kaliraya road,Waist Deep,Not passable to all vehicles
+2025/07/22,06:40,Quezon City,G. Araneta NS Amoranto,Waist Deep,Not passable to all vehicles
+2025/07/22,06:40,Quezon City,Biak na Bato corner Atok street,Knee Deep,Not passable to light vehicles
+2025/07/22,06:40,Quezon City,EDSA North Avenue northbound,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Las Piñas City,Marcos Alvarez near Wonderland Subd Talon Singko,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Las Piñas City,Alabang Zapote,Knee Deep,Not passable to light vehicles
+2025/07/22,06:40,Las Piñas City,Zapote Junction,Knee Deep,Not passable to light vehicles
+2025/07/22,06:40,Malabon City,M.H. Del Pilar Brgy. Maysilo Malabon,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Malabon City,P. Aquino Letre,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Valenzuela City,McArthur Highway, Marulas, BBB, Valenzuela City,Waist Deep,Not passable to all vehicles
+2025/07/22,06:40,Valenzuela City,Brgy. Marulas,Chest Deep,Not passable to all vehicles
+2025/07/22,06:40,Valenzuela City,Brgy. Dalandanan,Waist Deep,Not passable to all vehicles
+2025/07/22,06:40,Valenzuela City,Brgy. Malanday,Waist Deep,Not passable to all vehicles
+2025/07/22,06:40,Parañaque City,Dr. A. Santos ,Green heights,Waist Deep,Not passable to all vehicles
+2025/07/22,06:40,Parañaque City,SM Sucat Brgy San Dionisio,Waist Deep,Not passable to all vehicles
+2025/07/22,06:40,Makati City,Osmenia Emilia,Half Knee Deep,Passable to all vehicles
+2025/07/22,06:40,Caloocan City,C3 NLEX Connector,Knee Deep,Not passable to light vehicles
+2025/07/22,06:40,Marikina City,SM Marikina underpass going FVR road,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Marikina City,Major Dizon Marikina, Marikina river overflow,Not passable to all vehicles
+2025/07/22,06:40,Pasay City,EDSA Heritage SB,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Pasay City,EDSA Roxas Blvd NB/SB,Gutter Deep,Passable to all vehicles
+2025/07/22,06:40,Mandaluyong City,EDSA Shaw tunnel NB,Half Knee Deep,Passable to all vehicles
+2025/07/22,06:40,Muntinlupa City,National Road in front of Muntinlupa City Hall Brgy. Putatan,Half Tire Deep,Not passable to all vehicles
+2025/07/22,04:55,Manila City,Recto Mendiola Intersection,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Espana Dela Fuente,Tire Deep,Not passable to all vehicles
+2025/07/22,04:55,Manila City,Espana Blvd Antipolo,Knee Deep,Not passable to light vehicles
+2025/07/22,04:55,Manila City,Palanca Quinta Market,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Rizal ave Pampanga st,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Rizal ave Aurora,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,España Lacson WB,Knee Deep,Not passable to light vehicles
+2025/07/22,04:55,Manila City,España Lacson EB,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Espana corner Dela Fuente,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,España Blvd cor Antipolo St,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Taft Avenue cor. UN Ave.,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Taft Avenue corner Padre Faura,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Taft Avenue from Apacible to Escoda,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Roxas Blvd. P. Ocampo Intersection and Service Road,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Roxas Blvd Pedro Gil northbound,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Roxas Blvd Kalaw northbound,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Quirino Avenue Guazon,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Quirino Avenue corner Pedro Gil,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Roxas Blvd. U.N. Intersection and Service Road,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Jose Abad Santos Tayuman,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Manila City,Jose Abad Santos Recto,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Navotas City,Road 10 corner C3 Intersection,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Quezon City,G. Araneta Maria Clara NB/SB,Chest Deep,Not passable to all vehicles
+2025/07/22,04:55,Quezon City,Balintawak fronting St. Joseph Church,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Quezon City,G. Araneta E. Rodriguez intersection,Half Tire Deep,Not passable to light vehicles
+2025/07/22,04:55,Quezon City,G. Araneta Victory Ave. NB/SB,Chest Deep,Not passable to all vehicles
+2025/07/22,04:55,Quezon City,G. Araneta E. Rodriguez to Kaliraya road,Knee Deep,Not passable to all vehicles
+2025/07/22,04:55,Quezon City,G. Araneta NS Amoranto,Waist Deep,Not passable to all vehicles
+2025/07/22,04:55,Quezon City,Biak na Bato corner Atok street,Knee Deep,Not passable to light vehicles
+2025/07/22,04:55,Quezon City,EDSA North Avenue northbound,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Las Piñas City,Marcos Alvarez near Wonderland Subd Talon Singko,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Malabon City,M.H. Del Pilar Brgy. Maysilo Malabon,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Valenzuela City,McArthur Highway, Marulas, BBB, Valenzuela City,Waist Deep,Not passable to all vehicles
+2025/07/22,04:55,Caloocan City,C3 NLEX Connector,Knee Deep,Not passable to light vehicles
+2025/07/22,04:55,Marikina City,SM Marikina underpass going FVR road,Gutter Deep,Passable to all vehicles
+2025/07/22,04:55,Marikina City,Major Dizon Marikina, Marikina river overflow,Not passable to all vehicles
+2025/07/22,04:55,Parañaque City,Dr. A. Santos - Green heights,Waist Deep,Not passable to all vehicles
+2025/07/22,04:55,Parañaque City,SM Sucat Brgy San Dionisio,Waist Deep,Not passable to all vehicles
+2025/07/22,04:55,Las Piñas City,Alabang - Zapote,Knee Deep,Not passable to light vehicles
+2025/07/22,04:55,Las Piñas City,Zapote - Junction,Knee Deep,Not passable to light vehicles
+2025/07/22,04:55,Makati City,Osmenia - Emilia,Half Knee Deep,Passable to all vehicles
+2025/07/21,10:27,Manila City,Taft Avenue corner Padre Faura,Half Gutter Deep,Passable to all vehicles
+2025/07/21,10:27,Manila City,Taft Avenue from Apacible to Escoda,Half Gutter Deep,Passable to all vehicles
+2025/07/21,10:27,Manila City,Roxas blvd P. Ocampo Intersection and Service Road,Gutter Deep,Passable to all vehicles
+2025/07/21,10:27,Manila City,Quirino Guazon,Gutter Deep,Passable to all vehicles
+2025/07/21,10:27,Manila City,Roxas Blvd UN Intersection and Service Road,Gutter Deep,Passable to all vehicles
+2025/07/21,10:27,Manila City,JAS Tayuman NB,Gutter Deep,Passable to all vehicles
+2025/07/21,13:00,Manila City,Palanca Quinta Market,Gutter Deep,Passable to all vehicles
+2025/07/21,13:00,Manila City,España Lacson westbound,Knee Deep,Not passable to light vehicles
+2025/07/21,13:00,Manila City,España Lacson eastbound,Gutter Deep,Passable to all vehicles
+2025/07/21,10:30,Manila City,España Blvd cor. Antipolo St.,Knee Deep,Not passable to light vehicles
+2025/07/21,09:54,Makati City,Magallanes, Pasong Tamo,Half Tire Deep,Not passable to light vehicles
+2025/07/21,10:00,Makati City,Edsa before Ayala southbound,Half Gutter Deep,Passable to all vehicles
+2025/07/21,09:43,Pasay City,Andrews Ave. Tramo,Above Gutter Deep,Passable to all vehicles
+2025/07/21,10:25,Pasay City,Roxas EDSA Heritage Service Road NB,Gutter Deep,Passable to all vehicles
+2025/07/21,09:53,Parañaque City,MIA Coastal intersection,Gutter Deep,Passable to all vehicles
+2025/07/21,13:00,Quezon City,Araneta Maria Clara NB/SB,Tire Deep,Not passable to all vehicles
+2025/07/21,13:00,Quezon City,A. Bonifacio Balintawak,Half Tire Deep,Not passable to light vehicles
+2025/07/21,13:00,Quezon City,Commonwealth Sandigan Tunnel WB,Gutter Deep,Passable to all vehicles
+2025/07/21,13:00,Quezon City,Commonwealth Winston WB,Waist Deep,Not passable to all vehicles
+2025/07/21,13:00,Quezon City,Commonwealth Doña carmen WB,Waist Deep,Not passable to all vehicles
+2025/07/21,13:00,Quezon City,Mindanao Ave Extension Toyota,Gutter Deep,Passable to all vehicles
+2025/07/21,12:15,Quezon City,Regalado Highway Brookside,Above Knee Deep,Not passable to light vehicles
+2025/07/21,10:31,Quezon City,EDSA P. Tuazon Tunnel northbound/southbound,Gutter Deep,Passable to all vehicles
+2025/07/21,12:30,Quezon City,EDSA Balintawak northbound,Half Tire Deep,Not passable to light vehicles
+2025/07/21,12:30,Quezon City,EDSA Dario Bridge northbound,Gutter Deep,Passable to all vehicles
+2025/07/21,11:04,Quezon City,Araneta Victory Ave. NB/SB,Half Tire Deep,Not passable to light vehicles
+2025/07/21,11:57,Quezon City,E. Rodriguez-Araneta,Above Gutter Deep,Passable to all vehicles
+2025/07/19,16:00,Valenzuela City,In front of PLDT Maysan,Half Tire Deep,Not passable to light vehicles
+2025/07/19,16:00,Valenzuela City,Rincon Rd. in front of Dali Store (going to Malinta),Half Tire Deep,Not passable to light vehicles
+2025/07/19,16:00,Valenzuela City,Rincon Rd. in front of Dali Store (going to Pasolo),Half Tire Deep,Not passable to light vehicles
+2025/07/19,16:00,Quezon City,G. Araneta / NS Amoranto,Subsided,
+2025/07/19,16:00,Quezon City,C3 Balintawak,Half Tire Deep,Passable to all vehicles
+2025/07/19,09:07,Pasay City,Tramo SB Brgy. 185 going NAIA Terminal 3,Gutter Deep,Passable to all vehicles
+2025/07/19,08:42,Manila City,UN. Ave. Service Rd.,Gutter Deep,Passable to all vehicles
+2025/07/19,03:15,Manila City,Padre Faura to U. N Station,Gutter Deep,Passable to all vehicles
+2025/07/19,03:15,Manila City,Padre Faura intersection Taft Avenue,Gutter Deep,Passable to all vehicles
+2025/07/19,09:04,Manila City,Taft Ave., Pedro Gil PGH NB SB,Gutter Deep,Passable to all vehicles
+2025/07/19,07:04,Manila City,España Blvd - Bluementritt,Subsided,
+2025/07/19,06:11,Manila City,President Quirino ext. cor paz mendoza Guazon SB,Gutter Deep,Passable to all vehicles
+2025/07/19,06:25,Manila City,Maria Orosa st.Corner Kalaw,Gutter Deep,Passable to all vehicles
+2025/07/19,06:45,Manila City,V.mapa rmb WB,Gutter Deep,Passable to all vehicles
+2025/07/19,06:35,Manila City,along Kalaw from Manila Doctors to Taft Eb and Wb,Gutter Deep,Passable to all vehicles
+2025/07/19,04:45,Mandaluyong City,EDSA Shaw Tunnel NB,Gutter Deep,Passable to all vehicles
+2025/07/19,06:24,Quezon City,Commonwealth University Avenue Eastbound,Gutter Deep,Passable to all vehicles
+2025/07/19,09:02,Quezon City,COMMONWEALTH DOÑA CARMEN WB,Subsided,
+2025/07/19,05:25,Navotas City,San Jose - M.Naval cor E. Tuazon st,Above Gutter Deep,Passable to all vehicles
+2025/07/19,07:11,Manila City,Padre Faura to U. N Station,Gutter Deep,Passable to all vehicles
+2025/07/19,07:11,Manila City,Padre Faura intersection taft Ave.,Gutter Deep,Passable to all vehicles
+2025/07/19,07:11,Manila City,Taft Avenue NBI,Gutter Deep,Passable to all vehicles
+2025/07/19,04:50,Manila City,España Blvd - Bluemintritt,Gutter Deep,Passable to all vehicles
+2025/06/23,15:04,Quezon City,Commonwealth Ilang Ilang EB,Gutter Deep,Passable to all vehicles
+2025/06/23,15:04,Quezon City,Commonwealth Tandang Sora EB,Gutter Deep,Passable to all vehicles
+2025/06/23,15:04,Quezon City,Commonwealth-Batasan,Gutter Deep,Passable to all vehicles
+2025/06/23,15:04,Quezon City,C5 Katipunan Miriam College NB,Gutter Deep,Passable to all vehicles
+2025/06/23,15:04,Quezon City,Luzon corner Commonwealth SB and NB,Half Tire Deep,Not passable to light vehicles
+2025/06/23,15:04,Quezon City,Commonwealth-Philcoa (University Belt),Gutter Deep,Passable to all vehicles
+2025/06/23,15:04,Quezon City,Commonwealth Ever EB,Gutter Deep,Passable to all vehicles
+2025/06/23,15:04,Quezon City,C5 Ortigas service road SB,Gutter Deep,Passable to all vehicles
+2025/06/21,21:50,Manila City,España Lacson to Vicente Cruz EB/WB,Knee Deep,Not passable to light vehicles
+2025/06/21,21:50,Manila City,Jose Abad Santos Tayuman Intersection,Gutter Deep,Passable to all vehicles
+2025/06/21,17:32,Quezon City,Quezon Ave- Roces EB,Gutter Deep,Passable to all vehicles
+2025/06/21,17:32,Quezon City,Araneta Ave- Kaliraya NB & SB,Knee Deep,Not passable to light vehicles
+2025/06/21,17:32,Manila City,España Blvd corner Antipolo Street,Waist Deep,Not passable to all vehicles
+2025/06/21,17:32,Malabon City,M.H. del Pilar brgy. Tinajeros,Gutter Deep,Passable to all vehicles
+2025/06/06,18:47,Quezon City,A. Bonifacio Avenue fronting St. Joseph Parish Church,Half Knee Deep,Passable to all vehicles
+2025/06/06,18:47,Quezon City,Along A. Bonifacio Avenue (Sgt. River to J. Pineda St.),Gutter Deep,Passable to all vehicles
+2025/06/06,18:47,Quezon City,At Sgt. Rivera corner C-3, Quezon City,Tire Deep,Not passable to all vehicles
+2025/06/06,18:47,Quezon City,Commonwealth Avenue cor University Ave.,Gutter Deep,Passable to all vehicles
+2025/06/06,18:47,Quezon City,Ma. Clara cor. Don Jose,Subsided,
+2025/06/06,18:19,Manila City,España Dela Fuente EB/WB,Subsided,
+2025/06/06,16:32,Mandaluyong City,EDSA Ortigas Svc. Rd. SB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Mandaluyong City,EDSA Highway 54 Mall SB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Mandaluyong City,EDSA Shaw tunnel NB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Quezon City,EDSA Main Ave. NB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Quezon City,EDSA Whiteplains NB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Quezon City,EDSA After Quezon Ave. Flyover NB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Quezon City,Araneta E.Rodriguez SB/NB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Quezon City,Commonwealth Ever Go Tesco EB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Quezon City,Quezon Ave. Biak na Bato WB/EB,Knee Deep,Not passable to light vehicles
+2025/06/06,16:32,Quezon City,EDSA Balintawak NB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Quezon City,EDSA Oliveros NB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Makati City,EDSA Guadalupe Bridge NB,Gutter Deep,Passable to all vehicles
+2025/06/06,16:32,Taguig City,C5 Kalayaan Svc. Rd. (layby) SB,Gutter Deep,Passable to all vehicles
+2025/06/06,15:19,Mandaluyong City,EDSA Ortigas Svc. Rd. SB,Gutter Deep,Passable to all vehicles
+2025/06/06,15:19,Mandaluyong City,EDSA Highway 54 Mall SB,Gutter Deep,Passable to all vehicles
+2025/06/06,15:19,Mandaluyong City,EDSA Shaw tunnel NB,Gutter Deep,Passable to all vehicles
+2025/06/06,15:19,Quezon City,EDSA Main Ave. NB,Gutter Deep,Passable to all vehicles
+2025/06/06,15:19,Makati City,EDSA Guadalupe Bridge NB,Gutter Deep,Passable to all vehicles
+2025/06/06,15:16,Mandaluyong City,EDSA Ortigas Svc. Rd. SB,Gutter Deep,Passable to all vehicles
+2025/06/06,15:16,Mandaluyong City,EDSA Highway 54 Mall SB,Gutter Deep,Passable to all vehicles
+2025/06/06,15:16,Mandaluyong City,EDSA Shaw tunnel NB,Gutter Deep,Passable to all vehicles
+2025/06/06,15:16,Quezon City,EDSA Main Ave. NB,Gutter Deep,Passable to all vehicles
