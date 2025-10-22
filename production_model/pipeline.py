@@ -10,9 +10,9 @@ Automates the entire flood model training pipeline:
 5. Upload trained .pkl to Supabase
 """
 
-from scraper import fetch_latest_data
-from preprocess import download_training_data, clean_dataset
-from trainer import train_model
+from .scraper import fetch_latest_data
+from .preprocess import download_training_data, clean_dataset
+from .trainer import train_model
 
 def run_pipeline():
     print("[pipeline] Starting flood prediction training pipeline...")
