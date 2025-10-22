@@ -27,7 +27,6 @@ export default function Map(props) {
     mapRef.current = leaflet
       .map("map", { zoomControl: false })
       .setView([12.87, 121.77], 6)
-      // .fitWorld()
       .on("locationfound", onLocationFound)
       .on("locationerror", onLocationError)
       .on("click", hideSearchResults)
