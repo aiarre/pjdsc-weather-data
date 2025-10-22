@@ -22,5 +22,3 @@ def run_pipeline():
     train_model(df_clean)
     print("[pipeline] ✅ Pipeline completed successfully.")
 
-if __name__ == "__main__":
-    run_pipeline()

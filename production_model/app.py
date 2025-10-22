@@ -7,6 +7,8 @@ import numpy as np
 from supabase import create_client
 from dotenv import load_dotenv
 
+from production_model.pipeline import run_pipeline
+
 # Load environment variables
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "../.env"))
 
@@ -17,7 +19,7 @@ BUCKET_NAME = "data"
 # Supabase client
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-app = FastAPI(title="Flood Prediction AI Microservice")
+app = FastAPI(title="Flood Prediction AI Microservice")  # only one instance
 
 # -------------------------------
 # Request model (features only)
@@ -74,8 +76,16 @@ def predict(features: FloodFeatures):
     prob = model.predict_proba(feat_vector)[0, 1]
     return {"flood_probability": float(prob)}
 
-app = FastAPI()
-
+# -------------------------------
+# Root endpoint
+# -------------------------------
 @app.get("/")
 def root():
     return {"status": "ok", "message": "Flood AI microservice is running!"}
+
+@app.post("/retrain")
+def retrain_models():
+    run_pipeline()
+    global model
+    model = load_model()  # reload new model from Supabase
+    return {"status": "training completed"}
