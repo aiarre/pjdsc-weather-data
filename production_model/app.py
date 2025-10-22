@@ -7,7 +7,7 @@ import numpy as np
 from supabase import create_client
 from dotenv import load_dotenv
 
-from pipeline import run_pipeline
+from production_model.pipeline import run_pipeline
 
 # -------------------------------
 # Load environment variables
