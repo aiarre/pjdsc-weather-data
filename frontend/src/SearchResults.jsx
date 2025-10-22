@@ -25,7 +25,7 @@ export default function SearchResults(props) {
                   fetch(`${OVERPASS_BASE_URL}`, {
                     method: "POST",
                     body: `[out:json];
-                  way["highway"="primary"]["name"="${item?.name}"];
+                  way["name"="${item?.name}"];
                   out geom;`,
                   })
                     .then((resp) => resp.text())

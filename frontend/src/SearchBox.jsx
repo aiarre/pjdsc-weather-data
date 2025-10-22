@@ -16,7 +16,6 @@ export default function SearchBox(props) {
       addressdetails: 1,
       polygon_geojson: 0,
       category: "highway",
-      type: "primary",
       countrycodes: "ph",
     };
     const queryString = new URLSearchParams(params).toString();
