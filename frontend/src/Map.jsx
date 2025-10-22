@@ -26,7 +26,8 @@ export default function Map(props) {
   useEffect(() => {
     mapRef.current = leaflet
       .map("map", { zoomControl: false })
-      .fitWorld()
+      .setView([12.87, 121.77], 6)
+      // .fitWorld()
       .on("locationfound", onLocationFound)
       .on("locationerror", onLocationError)
       .on("click", hideSearchResults)
@@ -42,7 +43,7 @@ export default function Map(props) {
   // runs when the user selects a road to check flood severity
   useEffect(() => {
     if (selectPosition && selectRoad) {
-      mapRef.current.flyTo([selectPosition?.lat, selectPosition?.lon]);
+      mapRef.current.flyTo([selectPosition?.lat, selectPosition?.lon], 16);
 
       if (roadLinesRef.current) {
         roadLinesRef.current.forEach((line) =>
