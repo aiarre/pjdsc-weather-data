@@ -44,11 +44,12 @@ body,
 #legendContainer h3 {
     text-align: middle;
     font-weight: 700;
+    font-size: 0.75rem;
 }
 
 .dot {
-    height: 16px;
-    width: 16px;
+    height: 14px;
+    width: 14px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
