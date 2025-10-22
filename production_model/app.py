@@ -9,7 +9,9 @@ from dotenv import load_dotenv
 
 from production_model.pipeline import run_pipeline
 
+# -------------------------------
 # Load environment variables
+# -------------------------------
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "../.env"))
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
@@ -19,10 +21,16 @@ BUCKET_NAME = "data"
 # Supabase client
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-app = FastAPI(title="Flood Prediction AI Microservice")  # only one instance
+# -------------------------------
+# FastAPI app with /api root
+# -------------------------------
+app = FastAPI(
+    title="Flood Prediction AI Microservice",
+    root_path="/api"  # all endpoints will be under /api
+)
 
 # -------------------------------
-# Request model (features only)
+# Request model
 # -------------------------------
 class FloodFeatures(BaseModel):
     main_temp: float
@@ -36,7 +44,7 @@ class FloodFeatures(BaseModel):
     is_weekend: int
 
 # -------------------------------
-# Load model once
+# Load model
 # -------------------------------
 def load_model():
     print("[startup] Downloading model from Supabase...")
@@ -52,14 +60,17 @@ def load_model():
 model = load_model()
 
 # -------------------------------
-# Prediction endpoint
+# Endpoints
 # -------------------------------
+@app.get("/")
+def root():
+    return {"status": "ok", "message": "Flood AI microservice is running!"}
+
 @app.post("/predict")
 def predict(features: FloodFeatures):
     if model is None:
         raise HTTPException(status_code=503, detail="Model not available")
     
-    # Convert features to numpy array
     feat_vector = np.array([[
         features.main_temp,
         features.main_humidity,
@@ -72,20 +83,12 @@ def predict(features: FloodFeatures):
         features.is_weekend
     ]])
     
-    # Return only flood probability
     prob = model.predict_proba(feat_vector)[0, 1]
     return {"flood_probability": float(prob)}
-
-# -------------------------------
-# Root endpoint
-# -------------------------------
-@app.get("/")
-def root():
-    return {"status": "ok", "message": "Flood AI microservice is running!"}
 
 @app.post("/retrain")
 def retrain_models():
     run_pipeline()
     global model
-    model = load_model()  # reload new model from Supabase
+    model = load_model()  # reload newly trained model
     return {"status": "training completed"}
