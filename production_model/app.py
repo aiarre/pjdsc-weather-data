@@ -73,3 +73,9 @@ def predict(features: FloodFeatures):
     # Return only flood probability
     prob = model.predict_proba(feat_vector)[0, 1]
     return {"flood_probability": float(prob)}
+
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"status": "ok", "message": "Flood AI microservice is running!"}
