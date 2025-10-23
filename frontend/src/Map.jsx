@@ -15,7 +15,7 @@ export default function Map(props) {
   }
 
   function onLocationError(e) {
-    alert(e.message);
+    console.log(e.message);
   }
 
   function hideSearchResults() {

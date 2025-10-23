@@ -11,6 +11,17 @@ export default function SearchResults(props) {
   });
   return (
     <div id="searchResultsContainer">
+      <p
+        style={{
+          textAlign: "center",
+          padding: "20px 0",
+          color: "gray",
+          display: "none",
+        }}
+        id="searchLoading"
+      >
+        Loading...
+      </p>
       <ul id="searchResults">
         {listPlace.map((item) => {
           return (

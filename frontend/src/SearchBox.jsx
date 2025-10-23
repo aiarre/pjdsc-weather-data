@@ -10,6 +10,7 @@ export default function SearchBox(props) {
   const [listPlace, setListPlace] = useState([]);
 
   function submitAndSearch() {
+    document.getElementById("searchLoading").style.display = "block";
     const params = {
       q: searchText,
       format: "json",
@@ -23,11 +24,10 @@ export default function SearchBox(props) {
       method: "GET",
       redirect: "follow",
     };
-    console.log(`${NOMINATIM_BASE_URL}${queryString}`);
     fetch(`${NOMINATIM_BASE_URL}${queryString}`, requestOptions)
       .then((resp) => resp.text())
       .then((result) => {
-        console.log(JSON.parse(result));
+        document.getElementById("searchLoading").style.display = "none";
         setListPlace(JSON.parse(result));
       })
       .catch((e) => console.log("error: ", e));
