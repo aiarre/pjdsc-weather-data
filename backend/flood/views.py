@@ -10,6 +10,7 @@ from datetime import datetime
 from geopy.geocoders import Nominatim
 from dotenv import load_dotenv
 from supabase import create_client
+import threading
 import os
 
 # ==========================================================
@@ -47,20 +48,31 @@ def load_road_data():
 road_data = load_road_data()
 
 # ==========================================================
-# Load ML model from Supabase
+# Lazy-load ML model (Render-friendly)
 # ==========================================================
-def load_model():
-    print("[startup] Downloading best_flood_model.pkl from Supabase...")
-    try:
-        model_data = supabase.storage.from_(BUCKET_NAME).download("best_flood_model.pkl")
-        model = joblib.load(BytesIO(model_data))
-        print("[startup] Model loaded successfully.")
-        return model
-    except Exception as e:
-        print("[startup] Failed to load model:", e)
-        return None
+model = None
+model_lock = threading.Lock()
 
-model = load_model()
+def load_model():
+    global model
+    if model is not None:
+        return model
+
+    with model_lock:
+        if model is not None:  # double-check inside lock
+            return model
+        print("[model] Downloading best_flood_model.pkl from Supabase...")
+        try:
+            model_data = supabase.storage.from_(BUCKET_NAME).download("best_flood_model.pkl")
+            model = joblib.load(BytesIO(model_data))
+            print("[model] Model loaded successfully.")
+        except Exception as e:
+            print("[model] Failed to load model:", e)
+            model = None
+    return model
+
+# Optional: preload model in background (won’t block startup)
+threading.Thread(target=load_model, daemon=True).start()
 
 # ==========================================================
 # Helper functions
@@ -124,9 +136,11 @@ def predict(request):
     area = reverse_geocode(lat, lon)
     severity_info = calculate_severity_from_csv(area.get("city"), area.get("road"))
 
-    # If AI model is loaded, use it to get probability
+    # Load model on demand
+    model_instance = load_model()
+
     flood_prob = None
-    if model is not None and all(k in data for k in [
+    if model_instance is not None and all(k in data for k in [
         "main_temp", "main_humidity", "main_pressure", "rain1h", "wind_speed",
         "hour", "day_of_week", "month", "is_weekend"
     ]):
@@ -141,7 +155,7 @@ def predict(request):
             data["month"],
             data["is_weekend"]
         ]])
-        flood_prob = float(model.predict_proba(features)[0, 1])
+        flood_prob = float(model_instance.predict_proba(features)[0, 1])
 
     return Response({
         "area": area,
@@ -176,7 +190,8 @@ def retrain(request):
     global model
     try:
         run_pipeline()
-        model = load_model()
+        model = None
+        load_model()  # reload after retrain
         return JsonResponse({"status": "success", "message": "Model retrained and reloaded."})
     except Exception as e:
         return JsonResponse({"status": "error", "message": str(e)}, status=500)
