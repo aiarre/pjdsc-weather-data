@@ -7,7 +7,6 @@ export default function Map(props) {
   const { selectPosition, selectRoad } = props;
 
   function onLocationFound(e) {
-    console.log("location found");
     var radius = e.accuracy;
 
     leaflet.marker(e.latlng).addTo(mapRef.current);
