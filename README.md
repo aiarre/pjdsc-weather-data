@@ -1,4 +1,4 @@
-# 🌊 PJDSC Flood Prediction System
+# 🌊 Dry-ve Safe Flood Prediction System
 
 **Project for PJDSC Hackathon 2025**
 A web-based flood prediction system integrating AI, geospatial data, and weather analysis.
