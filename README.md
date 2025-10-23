@@ -1,159 +1,91 @@
-# 🌧️ Flood Prediction Model — PJDSC Weather Data
+# 🌊 PJDSC Flood Prediction System
 
-A machine learning pipeline that predicts road flooding based on weather and location data.  
-This project automatically downloads training data from **Supabase Storage**, trains a predictive model, and uploads the trained model (`.pkl`) back to Supabase.  
-It is designed to run both locally and on **Render** for automated retraining.
-
----
-
-## 📁 Project Structure
-
-```
-pjdsc-weather-data/
-├── .env
-├── README.md
-├── frontend/
-├── backend/
-└── model/
-
-```
+**Project for PJDSC Hackathon 2025**
+A web-based flood prediction system integrating AI, geospatial data, and weather analysis.
 
 ---
 
-## ⚙️ Setup Instructions
+## 🚀 Overview
 
-### 1. Clone the Repository
-```bash
-git clone <your-repo-url>
-cd pjdsc-weather-data
-```
+The **PJDSC Flood Prediction System** is designed to predict potential flooded areas based on user-provided **latitude**, **longitude**, and **radius**.
+It uses a trained AI model deployed as a microservice, with clean API communication between backend and frontend layers.
 
-### 2. Create and Activate a Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-```
+### 🧩 Architecture
 
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+This project follows a **hybrid MVC + microservice architecture**:
 
-### 4. Configure Environment Variables
-Create a `.env` file in the project root:
+* **Frontend:**
+  Built with **React.js**, deployed on **Vercel**.
+  → Temporary live link: [https://pjdsc-weather-data-frontend.vercel.app](https://pjdsc-weather-data-frontend.vercel.app)
 
-```bash
-SUPABASE_URL=https://<your-project>.supabase.co
-SUPABASE_KEY=<your-service-role-key>
-```
+* **Backend (API Gateway):**
+  A **Django** application hosted on **Render**, acting as a secure middle layer between the frontend and the AI microservice.
+  → Endpoint: [https://pjdsc-weather-data-backend.onrender.com](https://pjdsc-weather-data-backend.onrender.com)
 
-> ⚠️ Use the **Service Role Key**, not the public anon key.
+* **AI Microservice:**
+  A separate Python service hosted on **Render** for flood prediction using weather and location inputs.
+  → Processes sanitized data sent from the backend and returns prediction results.
+
+* **Storage:**
+  **Supabase Storage** is used to store large model artifacts (e.g., `.pkl` files) and datasets.
 
 ---
 
-## ☁️ Supabase Setup
+## 🔐 Environment Variables
 
-1. Go to [Supabase Dashboard](https://supabase.com/dashboard).  
-2. Create a **Storage Bucket** named `data`.  
-3. Upload your training CSV (e.g. `flooded_roads_phase1.csv`) to the bucket root.  
-4. Ensure the bucket allows read/write access for your service role key.
+Below is the `.env` structure (no need to share your actual secrets — this is just for reference):
 
-Example file list:
+```env
+SUPABASE_DATABASE_PASSWORD=
+SUPABASE_URL=
+SUPABASE_KEY=
+MICROSERVICE_URL=
+DJANGO_SECRET_KEY=
+DJANGO_DEBUG=
 ```
-data/
-├── flooded_roads_phase1.csv
-├── weather_all_months.csv
-└── best_flood_model.pkl   ← auto-uploaded after training
-```
+
+⚠️ **Security Note:**
+Do **not** commit your `.env` file to Git. Use Render’s or Vercel’s **Environment Variable settings** panel to manage these securely.
 
 ---
 
-## 🚀 Running the Pipeline Locally
+## 🧠 How It Works
 
-```bash
-cd model/reuter/model_service
-python pipeline.py
-```
+1. The **frontend** sends an API request to the **backend** with parameters:
 
-If successful, you’ll see logs like:
-```
-[preprocess] Downloading flooded_roads_phase1.csv...
-[trainer] ✅ Best model: RandomForest (AUC=0.92)
-[trainer] Uploaded 'best_flood_model.pkl' to Supabase.
-```
-
-The trained model (`best_flood_model.pkl`) will appear in your Supabase bucket automatically.
-
----
-
-## 🧠 Components Overview
-
-| File | Purpose |
-|------|----------|
-| **scraper.py** | Placeholder for automated weather/flood scraping. |
-| **preprocess.py** | Downloads and cleans CSV data from Supabase. |
-| **trainer.py** | Trains the ML model (RandomForest, GradientBoosting, etc.) and uploads results. |
-| **predictor.py** | Loads `.pkl` model from Supabase and predicts flood probability. |
-| **pipeline.py** | Orchestrates the full process: download → clean → train → upload. |
-
----
-
-## 🧪 Example Prediction (after training)
-
-```python
-from predictor import load_model, predict_flood_probability
-
-model = load_model()
-sample_input = {
-    "main.temp": 30.5,
-    "main.humidity": 85,
-    "main.pressure": 1002,
-    "rain1h": 12,
-    "wind.speed": 3.2,
-    "hour": 15,
-    "day_of_week": 2,
-    "month": 8,
-    "is_weekend": 0
-}
-prob = predict_flood_probability(model, sample_input)
-print("Flood probability:", prob)
-```
-
----
-
-## 🛠️ Deployment to Render
-
-1. Connect this repo to [Render.com](https://render.com).  
-2. Create a **Web Service** or **Cron Job** (if you only need periodic retraining).  
-3. Add the `.env` variables (same as local).  
-4. Command to run training:
-   ```bash
-   python model/reuter/model_service/pipeline.py
+   ```json
+   {
+     "latitude": 14.5995,
+     "longitude": 120.9842,
+     "radius": 10000
+   }
    ```
 
----
+2. The **backend** sanitizes the request and forwards it to the **AI microservice**.
 
-## 🧩 Notes
+3. The **AI microservice** processes the data using the pre-trained model and returns predictions.
 
-- The model artifacts are stored in Supabase Storage (`data` bucket).
-- Training datasets should be CSV files with at least:
-  ```
-  datetime, Location, Flood Type/Depth, Passability, Road_Sector
-  ```
-- `clean_dataset()` automatically infers the flood flag (`is_flooded`) from the data.
+4. The **backend** sanitizes the response and sends it back to the **frontend** for display.
 
 ---
 
-## 👨‍💻 Collaborators
-**Leanne Mariz Austria**  
-UP Diliman — BS Computer Science  
+## 🛠️ Tech Stack
 
-**John Mark Palpal-latoc**  
-UP Diliman — BS Computer Science  
+| Layer    | Technology                                |
+| -------- | ----------------------------------------- |
+| Frontend | React.js (Vite) + TailwindCSS             |
+| Backend  | Django + REST Framework                   |
+| AI Model | Python (scikit-learn, pandas, numpy)      |
+| Storage  | Supabase                                  |
+| Hosting  | Render (Backend + AI) & Vercel (Frontend) |
 
-**Reuter Jan Camacho**  
-UP Diliman — BS Computer Science  
+---
 
-**Nicanor Froilan Pascual**  
-UP Diliman — BS Computer Science  
+## 👨‍💻 Team Roles
+
+- **Leanne Mariz Austria** – Project Manager & Frontend Developer  
+- **Reuter Jan Camacho** – Backend Lead & Technical Lead  
+- **John Mark Palpal-latoc** – Frontend Lead  
+- **Nicanor Froilan Pascual** – AI / Data Science Engineer
+
+---
