@@ -18,6 +18,7 @@ executing==2.2.1
 fastapi==0.119.1
 geographiclib==2.1
 geopy==2.4.1
+gunicorn==23.0.0
 h11==0.16.0
 h2==4.3.0
 hpack==4.1.0
