@@ -20,7 +20,6 @@ This project follows a **hybrid MVC + microservice architecture**:
 
 * **Backend (API Gateway):**
   A **Django** application hosted on **Render**, acting as a secure middle layer between the frontend and the AI microservice.
-  → Endpoint: [https://pjdsc-weather-data-backend.onrender.com](https://pjdsc-weather-data-backend.onrender.com)
 
 * **AI Microservice:**
   A separate Python service hosted on **Render** for flood prediction using weather and location inputs.
