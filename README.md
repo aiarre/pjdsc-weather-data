@@ -16,7 +16,7 @@ This project follows a **hybrid MVC + microservice architecture**:
 
 * **Frontend:**
   Built with **React.js**, deployed on **Vercel**.
-  → Temporary live link: [https://pjdsc-weather-data-frontend.vercel.app](https://pjdsc-weather-data-frontend.vercel.app)
+  → Live link: [https://dry-vesafe-63xl.vercel.app/]
 
 * **Backend (API Gateway):**
   A **Django** application hosted on **Render**, acting as a secure middle layer between the frontend and the AI microservice.
