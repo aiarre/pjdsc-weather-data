@@ -7,7 +7,7 @@ A web-based flood prediction system integrating AI, geospatial data, and weather
 
 ## 🚀 Overview
 
-The **Dry-ve Safe Flood Prediction System** is designed to predict potential flooded areas based on user-provided **latitude**, **longitude**, and **radius**.
+**Dry-ve Safe Flood Prediction System** is designed to predict potential flooded areas based on user-provided **latitude**, **longitude**, and **radius**.
 It uses a trained AI model deployed as a microservice, with clean API communication between backend and frontend layers.
 
 ### 🧩 Architecture
