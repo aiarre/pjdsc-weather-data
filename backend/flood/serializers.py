@@ -1,11 +1,12 @@
 from rest_framework import serializers
 
 class FloodPredictionSerializer(serializers.Serializer):
-    road_sector = serializers.CharField()
-    city = serializers.CharField()
     latitude = serializers.FloatField()
     longitude = serializers.FloatField()
-    severity_score = serializers.FloatField()
-    severity_label = serializers.CharField()
-    distance_m = serializers.FloatField()
+    road = serializers.CharField(required=False, allow_null=True)
+    city = serializers.CharField(required=False, allow_null=True)
+    neighborhood = serializers.CharField(required=False, allow_null=True)
+    flood_probability = serializers.FloatField(required=False)
+    severity_score = serializers.FloatField(required=False)
+    severity_label = serializers.CharField(required=False)
     datetime = serializers.DateTimeField()
