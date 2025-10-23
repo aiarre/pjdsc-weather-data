@@ -129,9 +129,13 @@ def predict(request):
     data = request.data
     lat = data.get("latitude")
     lon = data.get("longitude")
+    radius = data.get("radius", 1000)  # default value if not provided
 
     if lat is None or lon is None:
-        return Response({"error": "latitude and longitude are required"}, status=status.HTTP_400_BAD_REQUEST)
+        return Response(
+            {"error": "latitude and longitude are required"},
+            status=status.HTTP_400_BAD_REQUEST
+        )
 
     area = reverse_geocode(lat, lon)
     severity_info = calculate_severity_from_csv(area.get("city"), area.get("road"))
@@ -139,31 +143,43 @@ def predict(request):
     # Load model on demand
     model_instance = load_model()
 
+    # Get weather/temporal features (optional)
+    main_temp = data.get("main_temp", 0)
+    main_humidity = data.get("main_humidity", 0)
+    main_pressure = data.get("main_pressure", 0)
+    rain1h = data.get("rain1h", 0)
+    wind_speed = data.get("wind_speed", 0)
+    hour = data.get("hour", datetime.now().hour)
+    day_of_week = data.get("day_of_week", datetime.now().weekday())
+    month = data.get("month", datetime.now().month)
+    is_weekend = data.get("is_weekend", int(datetime.now().weekday() >= 5))
+
     flood_prob = None
-    if model_instance is not None and all(k in data for k in [
-        "main_temp", "main_humidity", "main_pressure", "rain1h", "wind_speed",
-        "hour", "day_of_week", "month", "is_weekend"
-    ]):
-        features = np.array([[
-            data["main_temp"],
-            data["main_humidity"],
-            data["main_pressure"],
-            data["rain1h"],
-            data["wind_speed"],
-            data["hour"],
-            data["day_of_week"],
-            data["month"],
-            data["is_weekend"]
-        ]])
-        flood_prob = float(model_instance.predict_proba(features)[0, 1])
+    if model_instance is not None:
+        try:
+            features = np.array([[
+                main_temp,
+                main_humidity,
+                main_pressure,
+                rain1h,
+                wind_speed,
+                hour,
+                day_of_week,
+                month,
+                is_weekend
+            ]])
+            flood_prob = float(model_instance.predict_proba(features)[0, 1])
+        except Exception as e:
+            print("[predict] Model prediction failed:", e)
+            flood_prob = None
 
     return Response({
         "area": area,
         "severity": severity_info,
         "ai_probability": flood_prob,
-        "timestamp": datetime.now().isoformat()
+        "timestamp": datetime.now().isoformat(),
+        "radius": radius
     })
-
 
 @api_view(['GET'])
 def roads(request):
