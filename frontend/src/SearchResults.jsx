@@ -22,6 +22,17 @@ export default function SearchResults(props) {
       >
         Loading...
       </p>
+      <p
+        style={{
+          textAlign: "center",
+          padding: "20px 0",
+          color: "gray",
+          display: "none",
+        }}
+        id="searchEmpty"
+      >
+        No search results
+      </p>
       <ul id="searchResults">
         {listPlace.map((item) => {
           return (
@@ -51,6 +62,7 @@ export default function SearchResults(props) {
               >
                 {item?.display_name}
               </li>
+              <hr></hr>
             </div>
           );
         })}

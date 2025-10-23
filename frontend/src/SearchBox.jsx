@@ -11,6 +11,7 @@ export default function SearchBox(props) {
 
   function submitAndSearch() {
     document.getElementById("searchLoading").style.display = "block";
+    document.getElementById("searchEmpty").style.display = "none";
     const params = {
       q: searchText,
       format: "json",
@@ -28,6 +29,10 @@ export default function SearchBox(props) {
       .then((resp) => resp.text())
       .then((result) => {
         document.getElementById("searchLoading").style.display = "none";
+        const data = JSON.parse(result);
+        if (data.length === 0) {
+          document.getElementById("searchEmpty").style.display = "block";
+        }
         setListPlace(JSON.parse(result));
       })
       .catch((e) => console.log("error: ", e));

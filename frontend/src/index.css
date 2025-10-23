@@ -115,12 +115,19 @@ input {
 
 #searchResults li {
     padding: 20px;
-    border-top: 1px solid gray;
+    /*border-top: 1px solid gray;*/
 }
 #searchResults li:hover {
     background-color: seagreen;
     color: white;
     cursor: pointer;
+}
+#searchResults hr {
+    margin: auto;
+    width: 93%;
+    height: 1px;
+    background-color: gray;
+    /*border: none;*/
 }
 
 #floatingTab {
