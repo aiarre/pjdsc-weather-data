@@ -81,11 +81,18 @@ Do **not** commit your `.env` file to Git. Use Render’s or Vercel’s **Enviro
 
 ---
 
-## 👨‍💻 Team Roles
+## 👨‍💻 Team Roles & Contributions
 
-- **Leanne Mariz Austria** – Project Manager & Frontend Developer  
-- **Reuter Jan Camacho** – Backend Lead & Technical Lead  
-- **John Mark Palpal-latoc** – Frontend Lead  
-- **Nicanor Froilan Pascual** – AI / Data Science Engineer
+- **Leanne Mariz Austria** — Frontend & Project Management  
+  Designed and implemented the web app interface, coordinated project milestones, and ensured smooth collaboration among team members.
+
+- **Reuter Jan Camacho** — Backend Lead & Full-Stack Integration / Technical Lead  
+  Refactored and developed the backend, optimized the AI pipeline, integrated frontend and backend components, and managed deployment on Render and Vercel.
+
+- **John Mark Palpal-latoc** — Frontend Developer  
+  Developed the core frontend features and interactive components of the web application.
+
+- **Nicanor Froilan Pascual** — AI / Data Science Engineer  
+  Handled end-to-end AI development, including data gathering, preprocessing, model training, and evaluation.
 
 ---
