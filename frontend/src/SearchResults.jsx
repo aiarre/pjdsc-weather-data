@@ -1,9 +1,17 @@
 import { useEffect } from "react";
 
 const OVERPASS_BASE_URL = "https://overpass-api.de/api/interpreter";
+const BACKEND_API =
+  "https://pjdsc-weather-data-backend.onrender.com/api/predict/";
 
 export default function SearchResults(props) {
-  const { setSelectPosition, setSelectRoad, listPlace, setListPlace } = props;
+  const {
+    setSelectPosition,
+    setSelectRoad,
+    listPlace,
+    setListPlace,
+    setSeverity,
+  } = props;
   useEffect(() => {
     document.getElementById("searchInput").addEventListener("focus", () => {
       document.getElementById("searchResultsContainer").style.display = "block";
@@ -42,8 +50,24 @@ export default function SearchResults(props) {
                   document.getElementById(
                     "searchResultsContainer",
                   ).style.display = "none";
-                  console.log("loc selected");
                   setSelectPosition(item);
+
+                  fetch(BACKEND_API, {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                    body: `{
+                    "latitude": ${item?.lat},
+                    "longitude": ${item?.lon}
+                    }`,
+                  })
+                    .then((resp) => resp.text())
+                    .then((res) => JSON.parse(res))
+                    .then((data) => {
+                      setSeverity(data.severity.score);
+                    });
+
                   fetch(`${OVERPASS_BASE_URL}`, {
                     method: "POST",
                     body: `[out:json];

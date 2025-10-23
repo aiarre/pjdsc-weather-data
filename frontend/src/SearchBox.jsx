@@ -5,7 +5,7 @@ import search from "./assets/search.png";
 const NOMINATIM_BASE_URL = "https://nominatim.openstreetmap.org/search?";
 
 export default function SearchBox(props) {
-  const { setSelectPosition, setSelectRoad } = props;
+  const { setSelectPosition, setSelectRoad, setSeverity } = props;
   const [searchText, setSearchText] = useState("");
   const [listPlace, setListPlace] = useState([]);
 
@@ -64,6 +64,7 @@ export default function SearchBox(props) {
           setListPlace={setListPlace}
           setSelectPosition={setSelectPosition}
           setSelectRoad={setSelectRoad}
+          setSeverity={setSeverity}
         />
       </div>
     </div>

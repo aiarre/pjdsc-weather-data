@@ -5,15 +5,21 @@ import SearchBox from "./SearchBox";
 
 export default function App() {
   const [selectPosition, setSelectPosition] = useState();
+  const [severity, setSeverity] = useState();
   const [selectRoad, setSelectRoad] = useState([]);
   return (
     <>
-      <Map selectPosition={selectPosition} selectRoad={selectRoad} />
+      <Map
+        selectPosition={selectPosition}
+        selectRoad={selectRoad}
+        severity={severity}
+      />
       <SearchBox
         selectPosition={selectPosition}
         setSelectPosition={setSelectPosition}
         selectRoad={selectRoad}
         setSelectRoad={setSelectRoad}
+        setSeverity={setSeverity}
       />
       <div id="legendContainer">
         <h3>Legend</h3>

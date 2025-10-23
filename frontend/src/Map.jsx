@@ -1,15 +1,23 @@
 import { useRef, useEffect } from "react";
 import leaflet from "leaflet";
+import pin from "./assets/pin.png";
+
+var icon = leaflet.icon({
+  iconUrl: pin,
+  iconSize: [38, 38],
+  iconAnchor: [22, 34],
+  popupAnchor: [-3, -76],
+});
 
 export default function Map(props) {
   const mapRef = useRef();
   const roadLinesRef = useRef([]);
-  const { selectPosition, selectRoad } = props;
+  const { selectPosition, selectRoad, severity } = props;
 
   function onLocationFound(e) {
     var radius = e.accuracy;
 
-    leaflet.marker(e.latlng).addTo(mapRef.current);
+    leaflet.marker(e.latlng, { icon: icon }).addTo(mapRef.current);
     leaflet.circle(e.latlng, radius).addTo(mapRef.current);
   }
 
@@ -19,6 +27,18 @@ export default function Map(props) {
 
   function hideSearchResults() {
     document.getElementById("searchResultsContainer").style.display = "none";
+  }
+
+  function colorBasedOnScore(score) {
+    if (score >= 0.7) {
+      return "red";
+    } else if (score >= 0.4) {
+      return "orange";
+    } else if (score > 0) {
+      return "yellow";
+    } else {
+      return "green";
+    }
   }
 
   // renders the map
@@ -52,12 +72,12 @@ export default function Map(props) {
       for (const way of selectRoad) {
         const coords = way.geometry.map((p) => leaflet.latLng(p.lat, p.lon));
         const polyline = leaflet
-          .polyline(coords, { color: "red" })
+          .polyline(coords, { color: colorBasedOnScore(severity) })
           .addTo(mapRef.current);
         roadLinesRef.current.push(polyline);
       }
     }
-  }, [selectPosition, selectRoad]);
+  }, [selectPosition, selectRoad, severity]);
 
   return <div id="map" ref={mapRef}></div>;
 }
