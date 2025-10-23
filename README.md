@@ -146,7 +146,7 @@ print("Flood probability:", prob)
 ---
 
 ## 👨‍💻 Collaborators
-**Leanne Austria**  
+**Leanne Mariz Austria**  
 UP Diliman — BS Computer Science  
 
 **John Mark Palpal-latoc**  
