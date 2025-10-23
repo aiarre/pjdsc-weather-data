@@ -202,7 +202,7 @@ def retrain(request):
     """
     Retrains the model using the AI pipeline and reloads it.
     """
-    from .pipeline import run_pipeline
+    from production_model.pipeline import run_pipeline
     global model
     try:
         run_pipeline()
